@@ -1,0 +1,10 @@
+.parent {
+    border: solid antiquewhite;
+}
+.son {
+    border: 1px solid blue;
+}
+.daughter {
+    border: 1px dotted pink;
+
+}
