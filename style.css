@@ -1,18 +1,25 @@
 .parent {
     border: solid antiquewhite;
     height: 300px;
-    font-size: large;
+    font-size: 20px;
     background-color: beige;
-
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    justify-content: space-around
 }
+
 .son {
     border: 1px solid blue;
+    background-color: lightblue;
     font-size: medium;
     height: 100px;
 }
 .daughter {
     border: 1px dotted pink;
-    border-radius: 10px;
+    border-radius: 15px;
+    background-color: peachpuff;
     font-size: medium;
     height: 150px;
 }
